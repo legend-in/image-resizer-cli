@@ -25,3 +25,5 @@ $ npm start param1 param2 param3 param4
  - The output image file(s) are named as originalFileName_setWidth_setHeight.png. I.e. `example.png` -> `example_1920_1080.png`.
  
 ## Example 
+![cliExample](https://github.com/legend-in/image-resizer-cli/blob/master/images/cliExample.PNG)
+![outputExample](https://github.com/legend-in/image-resizer-cli/blob/master/images/outputExample.PNG)
