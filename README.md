@@ -4,11 +4,15 @@
 ## How to use it
 1. Clone or download this repository to your local directory
 2. cd to image-resizer-cli
-3. Open a command line interface, run: 
+3. Initialize npm
+```
+$ npm init
+```
+4. Open a command line interface, run: 
 ```
 $ npm start param1 param2 param3 param4
 ```
- - Type All FOUR(4) parameters as the following format, each is separated by a space character: 
+ - Type **All FOUR (4)** parameters as the following format, each one is separated by a space character: 
    - `param1`: /path/to/origin/file or directory 
    - `param2`: /path/to/output/directory 
    - `param3`: output image width (0 as auto) 
@@ -20,5 +24,4 @@ $ npm start param1 param2 param3 param4
  - It resizes the image(s) to the proportional ratio (width/height) as the original image, if set either `param3` or `param4` to 0. Or keep the width and height same as original image if both are set to 0.
  - The output image file(s) are named as originalFileName_setWidth_setHeight.png. I.e. `example.png` -> `example_1920_1080.png`.
  
- ## Example 
- 
+## Example 
