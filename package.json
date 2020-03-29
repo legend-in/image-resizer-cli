@@ -1,0 +1,32 @@
+{
+  "name": "image-resizer-cli",
+  "version": "1.0.0",
+  "description": "A cli tool for batch resizing images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/legend-in/image-resizer-cli"
+  },
+  "keywords": [
+    "image",
+    "resize",
+    "batch",
+    "cli"
+  ],
+  "author": "legend-in (github.com/legend-in)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "image-size": "^0.8.3",
+    "resize-img": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0"
+  }
+}
