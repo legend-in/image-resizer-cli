@@ -6,7 +6,7 @@ import resizeImgAsync from "./resizeImgAsync";
 import readArgv from "./readArgv";
 import getNewDimensions from "./getNewDimensions";
 
-console.log(chalk.blueBright("Image Resize CLI by JJ\n--------------------"));
+console.log(chalk.blueBright("Image Resize CLI by legend-in\n--------------------"));
 
 // Process stdin as arguments
 const argv = readArgv();
